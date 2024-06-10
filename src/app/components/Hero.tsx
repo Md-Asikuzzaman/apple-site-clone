@@ -1,7 +1,6 @@
 "use client";
 
 import { NextPage } from "next";
-
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useEffect, useState } from "react";
@@ -20,7 +19,7 @@ const Hero: NextPage<Props> = ({}) => {
     gsap.to("#cta", {
       opacity: 1,
       delay: 1.2,
-      y: -50,
+      y: -20,
     });
   }, []);
 
