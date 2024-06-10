@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { NextPage } from "next";
 import Image from "next/image";
+import VideoCarousel from "./VideoCarousel";
 
 interface Props {}
 
@@ -55,6 +56,9 @@ const Highlights: NextPage<Props> = ({}) => {
             </p>
           </div>
         </div>
+
+        {/* [Video] carousel */}
+        <VideoCarousel />
       </div>
     </section>
   );
